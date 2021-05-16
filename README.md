@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{404 NOT FOUND}</h1>
+<h1 align="center">404 NOT FOUND</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -37,7 +37,7 @@
 
 ![Screenshot](https://user-images.githubusercontent.com/64425886/118393395-87693e80-b65c-11eb-8a77-f9b05af48b67.png)
 
-Responsive design implemented using only HTML5 and CSS3.Live demo can be seen at the above mention demo link.
+Responsive design implemented using only HTML5 and CSS3. Live demo can be seen at the above mention demo link.
 
 ## Features
 
