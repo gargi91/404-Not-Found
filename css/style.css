@@ -1,0 +1,125 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* This defines what 1rem is */
+  font-size: 62.5%; /*1 rem = 10px; 10px/16px = 62.5%*/
+}
+
+body {
+  box-sizing: border-box;
+  padding: 4rem 7.7rem 2.4rem;
+  color: #333333;
+}
+
+.header {
+  font-family: "Inconsolata", monospace;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: -0.08em;
+  margin-bottom: 20rem;
+}
+
+main {
+  display: flex;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 30.8rem;
+}
+
+.picture {
+  margin-right: 11.878rem;
+}
+
+.img {
+  width: 53.922rem;
+  height: auto;
+}
+
+.heading--1 {
+  font-size: 6.4rem;
+  font-weight: 700;
+  margin-bottom: 3.6rem;
+}
+
+.text {
+  font-size: 2.4rem;
+  font-weight: 400;
+  width: 38.5rem;
+  /* margin-right: 25.3rem; */
+  margin-bottom: 7rem;
+  color: #4f4f4f;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn {
+  padding: 2.4rem 4.3rem;
+  background-color: #333333;
+  color: #fff;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.copyright {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+  width: 100%;
+  color: #bdbdbd;
+}
+/*1em = 16px*/
+@media only screen and (max-width: 37.5rem) {
+  body {
+    padding: 2.4rem;
+  }
+  main {
+    flex-direction: column;
+    margin-bottom: 11.4rem;
+    justify-items: center;
+  }
+
+  .header {
+    margin-bottom: 6.4rem;
+  }
+
+  .img {
+    width: 28.683rem;
+  }
+
+  .heading--1 {
+    font-size: 4.45rem;
+    margin-bottom: 3rem;
+  }
+
+  .text {
+    width: 100%;
+    font-size: 1.8rem;
+    margin-bottom: 6.6rem;
+  }
+
+  .picture {
+    margin-right: 0;
+    margin-bottom: 6rem;
+    text-align: center;
+  }
+}
